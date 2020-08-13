@@ -1,31 +1,34 @@
-# Adonis fullstack application
+# AdonisJS Project Manager
 
-This is the fullstack boilerplate for AdonisJs, it comes pre-configured with.
+El presente proyecto pretende a futuro desarrollar un sistema de gestión de proyectos teniendo en cuenta las siguientes funcionalidades.
 
-1. Bodyparser
-2. Session
-3. Authentication
-4. Web security middleware
-5. CORS
-6. Edge template engine
-7. Lucid ORM
-8. Migrations and seeds
+1. Gestión de Proyectos
+2. Gestión de Equipos de desarrollo
+3. Gestión de Tickets
+4. Gestión de Clientes (CRM)
+5. Calendarios
+6. Conversaciones
+7. Indicaciones
+8. Listas TODO
+9. Documentos relacionados con proyectos
+10. Tareas
+11. etc
 
 ## Setup
 
-Use the adonis command to install the blueprint
+`git clone https://github.com/alainrc2005/aproma.git`
 
-```bash
-adonis new yardstick
-```
+`npm install`
 
-or manually clone the repo and then run `npm install`.
+`npm asset-prod`
 
+`adonis migration:run`
+
+`adonis seed`
+
+`adonis serve --dev`
 
 ### Migrations
 
-Run the following command to run startup migrations.
+El usuario por defecto del sistema es admin@example.com con la contraseña admin123
 
-```js
-adonis migration:run
-```
