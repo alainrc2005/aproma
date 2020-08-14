@@ -32,3 +32,5 @@ El presente proyecto pretende a futuro desarrollar un sistema de gestión de pro
 
 El usuario por defecto del sistema es admin@example.com con la contraseña admin123
 
+## Status
+Starting
