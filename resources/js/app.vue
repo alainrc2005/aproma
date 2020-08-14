@@ -211,6 +211,9 @@ export default {
 </script>
 
 <style lang="sass">
+body
+ font-family: 'JetBrains Mono', sans-serif
+
 .GL
   &__select-GL__menu-link
     .default-type
