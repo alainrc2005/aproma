@@ -1984,7 +1984,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n#background[data-v-c8f9cd0c] {\r\n  position: absolute;\r\n  width: 100%;\r\n  height: 100%;\r\n  background-image: url(" + escape(__webpack_require__(/*! ../assets/bg.jpg */ "./resources/js/assets/bg.jpg")) + ");\r\n  background-repeat: no-repeat;\r\n  background-size: cover;\r\n  opacity: 0.4;\n}\r\n", ""]);
+exports.push([module.i, "\n#background[data-v-c8f9cd0c] {\r\n  position: absolute;\r\n  width: 100%;\r\n  height: 100%;\r\n  background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 150, 0.8) ), url(" + escape(__webpack_require__(/*! ../assets/bg.jpg */ "./resources/js/assets/bg.jpg")) + ");\r\n  background-repeat: no-repeat;\r\n  background-size: cover;\r\n  opacity: 0.8;\n}\r\n", ""]);
 
 // exports
 
@@ -84575,7 +84575,7 @@ var render = function() {
       _vm._v(" "),
       _c(
         "q-card",
-        { staticClass: "col-md-8 col-sm-12 col-xs-12" },
+        { staticClass: "col-md-8 col-sm-12 col-xs-12 shadow-24" },
         [
           _c("q-card-section", { staticClass: "row justify-center" }, [
             _c("div", { staticClass: "col-md-6 col-sm-6 col-xs-12" }, [
@@ -84589,7 +84589,14 @@ var render = function() {
               "div",
               { staticClass: "col-md-6 col-sm-6 col-xs-12 text-center" },
               [
-                _c("div", [_vm._v("APROMA")]),
+                _c("div", [
+                  _c("img", {
+                    attrs: {
+                      width: "250",
+                      src: __webpack_require__(/*! ../assets/aproma.svg */ "./resources/js/assets/aproma.svg")
+                    }
+                  })
+                ]),
                 _vm._v(" "),
                 _c(
                   "q-form",
@@ -102180,6 +102187,17 @@ window.app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
 
 /***/ }),
 
+/***/ "./resources/js/assets/aproma.svg":
+/*!****************************************!*\
+  !*** ./resources/js/assets/aproma.svg ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/aproma.svg?82fa554777cc7a3cdb631a539d9d90fb";
+
+/***/ }),
+
 /***/ "./resources/js/assets/bg.jpg":
 /*!************************************!*\
   !*** ./resources/js/assets/bg.jpg ***!
@@ -102187,7 +102205,7 @@ window.app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/images/bg.jpg?faa27d811fd4f5dbcbf20f94cfc8782c";
+module.exports = "/images/bg.jpg?8c15928e2d0bef7db169911556b1984c";
 
 /***/ }),
 
