@@ -234,7 +234,7 @@ body
   &__menu-link:hover
     background: #0366d6
     color: white
-  &__menu-link-signed-in
+  &__menu-link-signed-in,
   &__menu-link-status
     &:hover
       & > div

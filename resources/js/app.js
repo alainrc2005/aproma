@@ -4,8 +4,9 @@ import Quasar from 'quasar'
 import langQ from 'quasar/lang/es'
 import Vuelidate from 'vuelidate'
 import axios from 'axios'
-import App from './app.vue'
+import App from './layouts/default.vue'
 import moment from 'moment'
+import router from './router'
 
 const axiosContext = axios.create({
     baseURL: 'http://127.0.0.1:3333',
@@ -32,5 +33,6 @@ Vue.use(Vuelidate);
 
 window.app = new Vue({
     el: '#app',
-    render: h => h(App)
+    render: h => h(App),
+    router
 });

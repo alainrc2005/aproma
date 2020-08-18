@@ -7,11 +7,14 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Program",
-            "skipFiles": [
-                "<node_internals>/**"
+            "name": "Debug Application",
+            "runtimeExecutable": "npm",
+            "runtimeArgs": [
+              "run",
+              "dev"
             ],
-            "program": "${workspaceFolder}\\index.js"
-        }
+            "port": 9229,
+            "internalConsoleOptions": "openOnSessionStart"
+          }
     ]
 }
