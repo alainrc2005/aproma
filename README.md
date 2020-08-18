@@ -34,3 +34,6 @@ El usuario por defecto del sistema es admin@example.com con la contraseña admin
 
 ## Status
 Starting
+
+## Screen shots
+![Captura-1](https://live.staticflickr.com/65535/50239633982_cc0bf2db83_h.jpg) 
